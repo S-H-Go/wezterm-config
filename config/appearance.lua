@@ -43,6 +43,8 @@ return {
       top = 12,
       bottom = 7,
    },
+   -- 取消 Windows 原生标题栏
+   window_decorations = "INTEGRATED_BUTTONS|RESIZE",
    window_close_confirmation = 'NeverPrompt',
    window_frame = {
       active_titlebar_bg = '#090909',
