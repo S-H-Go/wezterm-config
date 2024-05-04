@@ -3,6 +3,7 @@ local platform = require('utils.platform')()
 local options = {
    default_prog = {},
    launch_menu = {},
+   default_cwd = '.'
 }
 
 if platform.is_win then
